@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Stephen Breton 
 
-## Write a short comment describing this function
+## function to create a matrix object with get, set methods
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -20,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## sets the inverse of the matrix or recalls the cached value
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
